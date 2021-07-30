@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Added Fontawesome in the terminal with the following - 30/07/21
+
+npm install @fortawesome/fontawesome-svg-core
+
+npm install @fortawesome/free-brands-svg-icons
+
+npm install @fortawesome/free-solid-svg-icons
+
+npm install @fortawesome/react-fontawesome-svg-icons
