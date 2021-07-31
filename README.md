@@ -78,3 +78,25 @@ npm install @fortawesome/free-brands-svg-icons
 npm install @fortawesome/free-solid-svg-icons
 
 npm install @fortawesome/react-fontawesome-svg-icons
+
+### Requirement Extensions
+
+React Router DOM
+
+npm install react-router-dom
+
+SASS
+
+I had to down grade version to work with this assignment.
+
+npm uninstall node-sass-
+
+npm install node-sass@4.14.1
+
+Then add:
+
+import {BrowserRouter} from 'react-router-dom';
+
+To the index.js file.
+
+
