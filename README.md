@@ -79,7 +79,7 @@ npm install @fortawesome/free-solid-svg-icons
 
 npm install @fortawesome/react-fontawesome-svg-icons
 
-### Requirement Extensions
+### Requirement Extensions SASS
 
 React Router DOM
 
@@ -99,4 +99,10 @@ import {BrowserRouter} from 'react-router-dom';
 
 To the index.js file.
 
+### Install Font Awesome
 
+npm i --save @fortawesome/fontawesome-svg-core
+ 
+npm install --save @fortawesome/free-solid-svg-icons
+
+npm install --save @fortawesome/react-fontawesome
