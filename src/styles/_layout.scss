@@ -4,6 +4,7 @@
     height: 100vh;
     background-color: #191D2B;
     position: fixed;
+    z-index: 11;
     border-right: 1px solid #2e344e;
     transform-origin: left;
     @media screen and (max-width: 1000px){
