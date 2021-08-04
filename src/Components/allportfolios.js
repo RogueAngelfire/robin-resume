@@ -8,7 +8,7 @@ import port7 from '../media/portimages/port6.jpg';
 const portfolios = [
     {
         id: 1,
-        category: 'Animation',
+        category: 'Animation', // Change
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
@@ -28,7 +28,7 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'Animation',
+        category: 'Animation', // change
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
@@ -68,7 +68,7 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'Test Port',
+        category: 'Test Port', // change
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
