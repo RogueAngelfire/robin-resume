@@ -7,7 +7,7 @@ import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import {Switch, Route} from 'react-router-dom';
 import { useState } from 'react';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <AppStyled className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
       </div>
@@ -48,9 +48,12 @@ function App() {
             </Switch>
           </div>
       </div>
-    </div>
+    </AppStyled>
   );
 }
 
+const AppStyled = styled.div`
+
+`;
 export default App;
 

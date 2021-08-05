@@ -3,7 +3,7 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faYoutube} from '@fortawesome/free-brands-svg-icons'; // find alternative
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link} from 'react-router-dom';
+// import {A} from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -19,14 +19,14 @@ function HomePage() {
         </p>
         <div className="icons">
           <a href="https://www.linkedin.com/in/robin-collins-5a785421/" target="_blank" rel="noreferrer" className="icon-holder">
-            <FontAwesomeIcon icon={faLinkedin} className="icon fb" /> 
+            <FontAwesomeIcon icon={faLinkedin} className="icon li" /> 
           </a>
-          <Link to="test" className="icon-holder">
+          <a href="https://github.com/RogueAngelfire" target="_blank" rel="noreferrer" className="icon-holder">
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link to="test" className="icon-holder">
+          </a>
+          <a href="https://www.youtube.com/channel/UCscNOCK2hWtUX-SmFLFP1KQ" target="_blank" rel="noreferrer" className="icon-holder">
             <FontAwesomeIcon icon={faYoutube} className="icon yt"/>
-          </Link>
+          </a>
         </div>
       </header>
     </div>
