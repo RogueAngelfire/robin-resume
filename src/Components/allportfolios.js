@@ -8,13 +8,13 @@ import port7 from '../media/portimages/port6.jpg';
 const portfolios = [
     {
         id: 1,
-        category: 'Animation', // Change
+        category: 'Web Design', // Change
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
+        icon1: 'G', // import font awesome and add link here
         icon2: 'Y',
         image: port1,
-        title: 'Autodesk Maya'
+        title: 'Website Design'
     },
     {
         id: 2,
@@ -24,17 +24,17 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port2,
-        title: 'Python Web Scrapping'
+        title: 'Django'
     },
     {
         id: 3,
-        category: 'Animation', // change
+        category: 'Django', // change
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
         image: port3,
-        title: 'Autodesk Maya'
+        title: 'Django'
     },
     {
         id: 4,
@@ -44,37 +44,37 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Vanilla Javascript Website'
+        title: 'JavaScript'
     },
     {
         id: 5,
-        category: 'React Js',
+        category: 'React Native',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
         image: port6,
-        title: 'Getting Started With React'
+        title: 'React-Native'
     },
     {
         id: 6,
-        category: 'React Js',
+        category: 'Graphic Design',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
         image: port7,
-        title: 'Vanilla Javascript Website'
+        title: 'Graphic Design'
     },
     {
         id: 7,
-        category: 'Test Port', // change
+        category: 'Photography', // change
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Vanilla Javascript Website'
+        title: 'Photographic Portfolio'
     }
 ]
 

@@ -18,7 +18,7 @@ function MenuItems({menuItem}) {
                         <h5>
                             {item.title}
                         </h5>
-                        <p>Placeholder paragraph</p>
+                        <p>Click to View Work</p>
                     </div>
                 })
             }

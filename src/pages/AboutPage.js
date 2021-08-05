@@ -28,13 +28,13 @@ function AboutPage() {
             <Title title={'Services'} span={'Services'} />
             <div className="servives-container">
                 <ServicesSection image={design} title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                text={'My new passion now a qualified Full Stack Developer.'}
                 />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={intelligence} title={'Photography'} 
+                text={'Over 30 years experience from Wedding shoots to dramatic landscapes.'}
                 />
-                <ServicesSection image={gamedev} title={'Game Development'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={gamedev} title={'Graphic Design'} 
+                text={'In addition to Web Design with over 25 years experice in Adobe CC.'}
                 />
 
                 

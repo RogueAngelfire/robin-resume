@@ -1,5 +1,5 @@
 import React from 'react';
-import {faFacebook} from '@fortawesome/free-brands-svg-icons'; // change to linkedin
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'; 
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faYoutube} from '@fortawesome/free-brands-svg-icons'; // find alternative
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,7 +19,7 @@ function HomePage() {
         </p>
         <div className="icons">
           <Link to="test" className="icon-holder">
-            <FontAwesomeIcon icon={faFacebook} className="icon fb" /> 
+            <FontAwesomeIcon icon={faLinkedin} className="icon fb" /> 
           </Link>
           <Link to="test" className="icon-holder">
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
