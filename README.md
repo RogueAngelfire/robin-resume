@@ -107,6 +107,14 @@ npm install --save @fortawesome/free-solid-svg-icons
 
 npm install --save @fortawesome/react-fontawesome
 
+### Add ons
+
+I chose to extend the project to feature addional information. Thus installing the following:
+
+npm install styled-components
+
+Then add the vscode-styled-components extension if using VS Code
+
 ### Acknowledgments
 
 MacLinz Universal Channel

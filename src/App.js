@@ -7,6 +7,7 @@ import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import {Switch, Route} from 'react-router-dom';
 import { useState } from 'react';
+// import styled from 'styled-components';
 
 
 function App() {

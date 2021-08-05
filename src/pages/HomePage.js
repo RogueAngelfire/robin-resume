@@ -18,9 +18,9 @@ function HomePage() {
           introduction possibly from current CV - highlighting transfereable skills.
         </p>
         <div className="icons">
-          <Link to="test" className="icon-holder">
+          <a href="https://www.linkedin.com/in/robin-collins-5a785421/" target="_blank" rel="noreferrer" className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon fb" /> 
-          </Link>
+          </a>
           <Link to="test" className="icon-holder">
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
           </Link>
