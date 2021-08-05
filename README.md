@@ -115,6 +115,10 @@ npm install styled-components
 
 Then add the vscode-styled-components extension if using VS Code
 
+npm install react-intersection-observer
+
+npm install react-particles-js  - This had issues running
+
 ### Acknowledgments
 
 MacLinz Universal Channel

@@ -1,6 +1,7 @@
 import React from 'react';
 import avatar from "../media/robin_phone.JPG"
 import {NavLink} from 'react-router-dom';
+// import styled from 'styled-components';
 
 function Navbar() {
   return (
@@ -19,6 +20,11 @@ function Navbar() {
           <li className="nav-item">
             <NavLink to="/about" exact activeClassName="active">
               About
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/resume" exact activeClassName="active">
+              Resume
             </NavLink>
           </li>
           <li className="nav-item">
