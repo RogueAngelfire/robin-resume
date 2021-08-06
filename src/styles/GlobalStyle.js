@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   --font-dark-color: #313131;
   --font-dark-color-2: #151515;
 }
-
+/* This is currently Removed as it is playing with current sizes on original design.
 *{
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
   font-size: 1.2rem;
-}
+}*/
 
 body{
   background-color: var(---background-dark-color);
