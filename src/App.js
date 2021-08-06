@@ -2,6 +2,7 @@ import './App.scss';
 import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
+import ResumePage from './Pages/ResumePage';
 import PortflioPage from './Pages/PortfolioPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
@@ -35,6 +36,9 @@ function App() {
               </Route>
               <Route path="/about" exact>
                 <AboutPage />
+              </Route>
+              <Route path="/resume" exact>
+                <ResumePage />
               </Route>
               <Route path="/portfolio" exact>
                 <PortflioPage />
