@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../Components/Title'
 import ImageSection from '../Components/ImageSection';
-import SkillsSection from '../Components/SkillsSection';
+import SkillsSection from '../Components/SkillsSection'; // Move Skills over to Resume
 import ServicesSection from '../Components/ServicesSection';
 import design from '../media/design.svg';
 import intelligence from '../media/intelligence.svg';
