@@ -5,9 +5,8 @@ function ServicesSection({title, text, icon}) {
         <div className="ServicesSection">
             <div className="service">
                 <div className="service-content">
-                    <p>{icon}</p>
-                    <h5 className="s-title">{title}</h5>
-                    <p className="s-text">
+                    <h5 className="s-title">{icon} {title}</h5>
+                    <p className="s-text" >
                         {text}
                     </p>
                 </div>
