@@ -1,9 +1,11 @@
-import port1 from '../media/portimages/maya-1.jpg';
-import port2 from '../media/portimages/port1.jpg';
+//import port1 from '../media/portimages/maya-1.jpg';
+//import port2 from '../media/portimages/port1.jpg';
 import port3 from '../media/portimages/port2.jpg';
 import port4 from '../media/portimages/port3.jpg';
 import port6 from '../media/portimages/port5.jpg';
 import port7 from '../media/portimages/port6.jpg';
+import port1 from '../media/portimages/outback.jpg';
+import port2 from '../media/portimages/horseshoeinn.jpg';
 
 const portfolios = [
     {
