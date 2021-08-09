@@ -1,11 +1,11 @@
 import React from 'react';
 
-function ServicesSection({image, title, text}) {
+function ServicesSection({title, text, icon}) {
     return (
         <div className="ServicesSection">
             <div className="service">
                 <div className="service-content">
-                    <img src={image} alt=""/>
+                    <p>{icon}</p>
                     <h5 className="s-title">{title}</h5>
                     <p className="s-text">
                         {text}
