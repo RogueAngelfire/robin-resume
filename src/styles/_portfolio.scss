@@ -31,7 +31,7 @@
             }
             &:hover::before{
                 transform: scale(1);
-            }
+            } 
             img{
                 width: 100%;
                 height: 30vh;
@@ -40,11 +40,28 @@
 
             // Github Icon  Needs Fixing
 
-            .icon{  
+            /*.icon{  
                 width: 50%;
+                padding: 10px;
                 color: #037FFF;
                 height: 10vh;
-                object-fit: cover;
+                position:absolute;
+            } */
+
+            svg.svg-inline--fa.fa-github.fa-w-16.icon.li{
+                color: #037FFF;
+                padding: 10px;
+                width: 50%;
+                height: 10vh;
+                position: absolute;
+            }
+
+            svg.svg-inline--fa.fa-linkedin.fa-w-14.icon.li{
+                color: #037FFF;
+                padding: 10px;
+                width: 50%;
+                height: 10vh;
+                position: absolute;
             }
 
             .hover-items{
@@ -54,7 +71,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 padding: 1rem 2rem;
-                visibility: hidden;
+                // visibility: hidden;
                 li{
                     a{
                         padding: 1rem;
@@ -76,8 +93,8 @@
                     visibility: visible;
                     top: 50%;
                 }
-            }
-        }
+            } 
+        } 
         
         h5{
             font-size: 1.7rem;

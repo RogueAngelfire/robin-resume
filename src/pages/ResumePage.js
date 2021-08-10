@@ -58,13 +58,14 @@ function ResumePage() {
                         year={'2019 - 2021'} 
                         title={'Full Stack Software Developer'}
                         subTitle={'The Code Institute'}
-                        text={`Diploma in Software Development. Accredited by the University of Napier, Edinburgh.`} 
+                        text={`Website development, HTML5, CSS3, JavaScript, Python, UX/UI, Flask, MySql, MongoDB, JQuery, JSON, Bootstrap and more technologies used to create mobile first websites.`} 
                     />
+                    
                     <ResumeItem 
                         year={'1997 - 1999'} 
                         title={'HND Television & Video Production Technology'}
                         subTitle={'Greenwich University Campas - West Kent College'}
-                        text={`From Script to Screen producing Documentaries. My final assingment was a Documentary called 'Save our Seas' featuring the enviromental group 'Surfers Against Sewage'`} 
+                        text={`From Script to Screen producing Documentaries. My final assingment was a Documentary called 'Save our Seas' featuring the enviromental group 'Surfers Against Sewage'.`} 
                     />
                     <ResumeItem 
                         year={'1994 - 1999'} 

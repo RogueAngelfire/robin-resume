@@ -14,8 +14,8 @@ const portfolios = [
     {
         id: 1,
         category: 'Web Design', // Change
-        link1: 'www.youtube.com',
-        link2: 'https://github.com/RogueAngelfire/outback_v1',
+        link1: 'https://github.com/RogueAngelfire/outback_v1',
+        link2: 'https://outback.herokuapp.com/',
         icon1: 'G', // import font awesome and add link here
         icon2: 'Y',
         image: port1,
@@ -34,8 +34,8 @@ const portfolios = [
     {
         id: 3,
         category: 'Django', // change
-        link1: 'www.youtube.com',
-        link2: 'https://github.com/RogueAngelfire/the_horseshoe_inn_v1',
+        link1: 'https://github.com/RogueAngelfire/the_horseshoe_inn_v1',
+        link2: 'https://the-horseshoe-inn.herokuapp.com/',
         icon1: 'G',
         icon2: 'Y',
         image: port3,

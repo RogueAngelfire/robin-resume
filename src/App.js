@@ -9,7 +9,7 @@ import ContactPage from './Pages/ContactPage';
 import {Switch, Route} from 'react-router-dom';
 import { useState } from 'react';
 import styled from 'styled-components';
-
+import './App.scss';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);

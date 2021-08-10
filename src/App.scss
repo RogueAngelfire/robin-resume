@@ -1,14 +1,14 @@
-@import './styles/about';
-@import './styles/layout';
-@import './styles/typography';
-@import './styles/navbar';
-@import './styles/title';
-@import './styles/skill';
-@import './styles/services';
-@import './styles/blogs';
-@import './styles/contact';
-@import './styles/portfolio';
-@import './styles/resume';
+@import './styles/_about.scss';
+@import './styles/_layout';
+@import './styles/_typography';
+@import './styles/_navbar';
+@import './styles/_title';
+@import './styles/_skill';
+@import './styles/_services';
+@import './styles/_blogs';
+@import './styles/_contact';
+@import './styles/_portfolio';
+//@import './styles/_resume';
 
 *{
   padding: 0;
