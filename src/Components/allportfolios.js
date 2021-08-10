@@ -1,9 +1,9 @@
 //import port1 from '../media/portimages/maya-1.jpg';
 //import port2 from '../media/portimages/port1.jpg';
-import port3 from '../media/portimages/port2.jpg';
+//import port3 from '../media/portimages/port2.jpg';
 //import port4 from '../media/portimages/port3.jpg';
-import port6 from '../media/portimages/port5.jpg';
-import port7 from '../media/portimages/port6.jpg';
+import port6 from '../media/portimages/chew.jpg';
+import port7 from '../media/portimages/graphics.jpg';
 import port1 from '../media/portimages/outback.jpg';
 import port2 from '../media/portimages/horseshoeinn.jpg';
 import port4 from '../media/portimages/aloneelsewhere.jpg';
@@ -16,16 +16,14 @@ const portfolios = [
         category: 'Web Design', // Change
         link1: 'https://github.com/RogueAngelfire/outback_v1',
         link2: 'https://outback.herokuapp.com/',
-        icon1: 'G', // import font awesome and add link here
-        icon2: 'Y',
         image: port1,
         title: 'Website Design'
     },
     {
         id: 2,
-        category: 'Python',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
+        category: 'Flask',
+        link1: 'https://github.com/RogueAngelfire/the_horseshoe_inn_v1',
+        link2: 'https://the-horseshoe-inn.herokuapp.com/',
         icon1: 'G',
         icon2: 'Y',
         image: port2,
@@ -34,12 +32,12 @@ const portfolios = [
     {
         id: 3,
         category: 'Django', // change
-        link1: 'https://github.com/RogueAngelfire/the_horseshoe_inn_v1',
-        link2: 'https://the-horseshoe-inn.herokuapp.com/',
+        link1: '',
+        link2: '',
         icon1: 'G',
         icon2: 'Y',
-        image: port3,
-        title: 'Django'
+        image: port6,
+        title: 'Flask'
     },
     {
         id: 4,

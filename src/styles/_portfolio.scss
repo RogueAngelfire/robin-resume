@@ -34,8 +34,8 @@
             } 
             img{
                 width: 100%;
-                height: 30vh;
-                object-fit: cover;
+                //height: 30vh;
+                // object-fit: cover;
             }
 
             // Github Icon  Needs Fixing
@@ -71,7 +71,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 padding: 1rem 2rem;
-                // visibility: hidden;
+                visibility: hidden;
                 li{
                     a{
                         padding: 1rem;
