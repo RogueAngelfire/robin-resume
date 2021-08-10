@@ -38,6 +38,15 @@
                 object-fit: cover;
             }
 
+            // Github Icon  Needs Fixing
+
+            .icon{  
+                width: 50%;
+                color: #037FFF;
+                height: 10vh;
+                object-fit: cover;
+            }
+
             .hover-items{
                 list-style: none;
                 position: absolute;
@@ -52,8 +61,8 @@
                         text-decoration: none;
                         font-family: inherit;
                         border-radius: 10px;
-                        background-color: #037FFF;
-                        color: white;
+                        // background-color: white;
+                        // color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
                         }

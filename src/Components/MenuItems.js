@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'; 
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function MenuItems({menuItem}) {
     return (
@@ -10,8 +13,12 @@ function MenuItems({menuItem}) {
                             <img src={item.image} alt=""/>
                             <ul className="hover-items">
                                 <li>
-                                    <a href={item.link1}>{item.icon1}</a>
-                                    <a href={item.link2}>{item.icon2}</a>
+                                    <a href={item.link1} target="_blank" rel="noreferrer">
+                                        <FontAwesomeIcon icon={faGithub} className="icon li" /> 
+                                    </a>
+                                    <a href={item.link2} target="_blank" rel="noreferrer">
+                                        <FontAwesomeIcon icon={faLinkedin} className="icon li" /> 
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -25,5 +32,6 @@ function MenuItems({menuItem}) {
         </div>
     )
 }
+
 
 export default MenuItems;
