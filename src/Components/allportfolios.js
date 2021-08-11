@@ -1,19 +1,15 @@
-//import port1 from '../media/portimages/maya-1.jpg';
-//import port2 from '../media/portimages/port1.jpg';
-//import port3 from '../media/portimages/port2.jpg';
-//import port4 from '../media/portimages/port3.jpg';
-import port6 from '../media/portimages/chew.jpg';
-import port7 from '../media/portimages/graphics.jpg';
 import port1 from '../media/portimages/outback.jpg';
 import port2 from '../media/portimages/horseshoeinn.jpg';
+import port3 from '../media/portimages/reactnativescreen.jpg';
 import port4 from '../media/portimages/aloneelsewhere.jpg';
-//import GitHub from '@material-ui/icons/GitHub';
-//import Pinterest from '@material-ui/icons/Pinterest';
+import port6 from '../media/portimages/chew.jpg';
+import port7 from '../media/portimages/graphics.jpg';
+
 
 const portfolios = [
     {
         id: 1,
-        category: 'Web Design', // Change
+        category: 'Web Design',
         link1: 'https://github.com/RogueAngelfire/outback_v1',
         link2: 'https://outback.herokuapp.com/',
         image: port1,
@@ -31,7 +27,7 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'Django', // change
+        category: 'Django',
         link1: '',
         link2: '',
         icon1: 'G',
@@ -56,7 +52,7 @@ const portfolios = [
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
-        image: port6,
+        image: port3,
         title: 'React-Native'
     },
     {
@@ -71,7 +67,7 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'Photography', // change
+        category: 'Photography',
         link1: 'https://www.robincollins.co.uk/',
         link2: 'www.github.com',
         icon1: 'G',
