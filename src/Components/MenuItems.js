@@ -1,6 +1,10 @@
 import React from 'react';
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons'; 
+//import {faLinkedin} from '@fortawesome/free-brands-svg-icons'; 
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
+// import {library} from '@fortawesome/free-brands-svg-icons'; find out why this is playing up!
+//import { mdiLinkVariant } from '@material-ui/icons/mdiLinkVariant';
+//import { BiLink } from "react-icons/md";
+import { faFilm } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function MenuItems({menuItem}) {
@@ -17,13 +21,13 @@ function MenuItems({menuItem}) {
                                         <FontAwesomeIcon icon={faGithub} className="icon li" /> 
                                     </a>
                                     <a href={item.link2} target="_blank" rel="noreferrer">
-                                        <FontAwesomeIcon icon={faLinkedin} className="icon li" /> 
+                                        <FontAwesomeIcon icon={faFilm} className="icon li" />  
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <h5>
-                            {item.title}
+                            {item.title} 
                         </h5>
                         <p>Click to View Work</p>
                     </div>
