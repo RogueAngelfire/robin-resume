@@ -19,10 +19,10 @@
             &::before{
                 content: "";
                 position: absolute;
-                top: 12px;
-                left: 15px;
-                height: calc(100% - 30px);
-                width: calc(100% - 30px);
+                //top: 12px;
+                //left: 15px;
+                height: calc(100%);
+                width: calc(100%);
                 background-color: rgba(255, 255, 255, 0.925);
                 transform-origin: center;
                 transform: scale(0);
@@ -34,8 +34,8 @@
             } 
             img{
                 width: 100%;
-                //height: 30vh;
-                // object-fit: cover;
+                //height: 30%;
+                //object-fit: cover;
             }
 
             // Github Icon  Needs Fixing
@@ -69,8 +69,8 @@
                 position: absolute;
                 top: 70%;
                 left: 50%;
-                transform: translate(-50%, -50%);
-                padding: 1rem 2rem;
+                transform: translate(-75%, -75%);
+                padding: 20px;
                 visibility: hidden;
                 li{
                     a{
